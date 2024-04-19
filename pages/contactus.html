@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuremu &mid; school</title>
+    <link rel="icon" type="image/x-icon" href="../public/logo.PNG">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <h20>KUREMU SECONDARY SCHOOL</h20>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <img src="../public/logo.PNG"  class="log">
+    <div class="topnav" id="myTopnav">
+      
+      <div class="dropdown">
+        <button class="dropbtn">  
+        </button>
+      </div>
+      <br><br>
+        <a href="../index.html" >Home</i></a> 
+
+        <div class="dropdown">
+          <button class="dropbtn">  <a href="../pages/aboutus.html">About Us <i class="arrow down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#student">Student Leadership</a>
+            <a href="#managment">managment</a>
+            <a href="#facilities">facilities</a>
+          </div>
+        </div>
+        
+        <div class="dropdown"> 
+            <button class="dropbtn"> <a href="../pages/academics.html">Academics <i class="arrow down"></i></a>     
+            </button>
+            <div class="dropdown-content">
+              <a href="">Mathematics</a>
+              <a href="">Languages</a>
+              <a href="e">Science</a>
+              <a href="">technical</a>
+              <a href="">humanities</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn"> <a href="../pages/department.html">Department <i class="arrow down"></i></a>
+            </button>
+            <div class="dropdown-content">
+              <a href="">Director of Studies</a>
+              <a href="">Games/sports</a>
+              <a href="">Clubs/Society</a>
+            </div>
+          </div>
+          
+         
+         
+          <a href="../pages/contactus.html">Contact Us</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+       
+      </div>
+<br><br><br>
+
+  <h16>OUR LOCATION</h16><br> 
+  <div class="con">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31917.518611626874!2d34.08886469461941!3d0.45983653495378624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177fa140f465654f%3A0x68fa5e85fcab9513!2sBusia!5e0!3m2!1sen!2ske!4v1712852336241!5m2!1sen!2ske"
+   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+   referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="fieldset">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="defcf369-5189-444d-9025-fbb065e13b48">
+  
+      <label for="Firstname" class="od">Firstname: <input type="text" name="name" class="name" autocomplete="on" placeholder="First  name" required></label><br>
+      <label for="Lasttname" class="od">Lastname: <input type="text" name="name" class="name"autocomplete="on" placeholder="Last name" required><br>
+        <label for="email"class="od" >Email:      <input type="email" autocomplete="on" name="email" class="name" autocomplete="on" placeholder="abcd@gmail.com"><br>
+          <label for="phone" class="0d">TEL: <input type="number"name="phone" class="name" autocomplete="on" placeholder="0712-345-6789"> </label>
+    <textarea  name="message"placeholder="Leave us a  message or a comment" class="name"required></textarea><br>
+    <button class="submit" type="submit">Submit Form</button>
+      </form></div>
+    </div>
+
+      <div class="us">
+        <div class="usa">
+        <h6>ABOUT US</h6>
+        <p class="us2"> <span>Our Vision:</span> To be responsible and accountable members of the society.
+         <span><br> Our Mission:</span> To provide holistic education for self reliance.
+      
+      </div>
+      
+      <div class="us1">
+        <h6>OPENING HOURS (VISITORS)</h6>
+        <p class="us2">Weekdays: 8:00AM - 5:00PM<br>Saturdays: 8:00AM - 3:00PM<br> Sundays: Closed
+          
+          
+          </p>
+      </div>
+      
+
+      <div class="us1">
+        <h6>CONTACT INFORMATION</h6>
+        <p class="us2">Buisa - Kenya.<br>+254 712253376<br>kuremusch@gmail.com</style></a><br>.Box 76</p>
+      </div>
+      
+      <div class="us1">
+        <h6>OUR SOCIALS</h6>
+        <p class="us2">
+          <a href="https://wa.me/+254742149060" title="click to open whatsapp chat"><p class="btn btn-success">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a></p>
+          
+      </div>
+      </div>
+      
+      
+
+
+
+
+  <script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+</body>
+</html>

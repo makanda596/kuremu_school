@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuremu &mid; school</title>
+    <link rel="icon" type="image/x-icon" href="../public/logo.PNG">
+    <link rel="stylesheet" href="../css/department.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <h20>KUREMU SECONDARY SCHOOL</h20>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <img src="../public/logo.PNG"  class="log">
+    <div class="topnav" id="myTopnav">
+      <div class="dropdown">
+        <button class="dropbtn">  
+        </button>
+      </div>
+      <br><br>
+        <a href="../index.html" >Home</i></a> 
+        <div class="dropdown">
+          <button class="dropbtn">  <a href="../pages/aboutus.html">About Us <i class="arrow down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#student">Student Leadership</a>
+            <a href="#managment">managment</a>
+            <a href="#facilities">facilities</a>
+          </div>
+        </div>
+        
+        <div class="dropdown"> 
+            <button class="dropbtn"> <a href="../pages/academics.html">Academics <i class="arrow down"></i></a>     
+            </button>
+            <div class="dropdown-content">
+              <a href="">Mathematics</a>
+              <a href="">Languages</a>
+              <a href="e">Science</a>
+              <a href="">technical</a>
+              <a href="">humanities</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn"> <a href="../pages/department.html">Department <i class="arrow down"></i></a>
+            </button>
+            <div class="dropdown-content">
+              <a href="">Director of Studies</a>
+              <a href="">Games/sports</a>
+              <a href="">Clubs/Society</a>
+            </div>
+          </div>
+          
+          
+          <a href="../pages/contactus.html">Contact Us</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      
+      </div>
+    
+      <div class="department">
+        <h10 >OUR DEPARTMENTS</h10>
+      </div> 
+      <p class="dep">
+        Apart from the school work we enable the students have an interaction section with 
+        some co-curricular activites,clubs and society and other outdoor related activities
+        to enable a perfect condusive enviroment
+      </p>
+      <section id="director" class="director">
+<div class="directory">
+      <img src="../public/banner12.jpg" class="imgde"><br>
+      <h11>DEAN OF STUDENTS</h11>
+      <p class="depinfo">I am pleased to welcome you to Kuremu Secondary School.
+         Students are the heart of the our school, bringing
+          their diverse experiences and perspectives, unique passions, talents, questions and
+           aspirations to our community and to their studies. Students are taught and championed by dedicated faculty,
+            instructors and staff.Students are taught and championed by dedicated faculty, instructors and staff with deep expertise: in field-defining research across a wide range of disciplines; in
+             advancing teaching and learning practices </p></div>
+
+             <div class="directory">
+             <img src="../public/banner12.jpg" class="imgde" ><br>
+             <h11>HEAD OF DEPARTMENTS</h11>
+             <p class="depinfo">Our esteemed head of all departments in our school has enable the students,teachers and the whole staff
+              have an interaction with each other on these events
+                </p></div>
+    
+     
+    </section>
+
+    <section id="games" class="games">
+      
+      <h11>GAMES AND SPORTS</h11>
+      <img src="../public/hoookey.jpg" class="imgga">
+      <p class="depinfo">We have embrace co-curricular activities in our school for the best of our 
+        students in our school whome have won diffrent trophies across the county level
+         and national level
+      </p>
+    </section>
+<section id="clubs" class="clubs">
+  <h11>CLUBS AND SOCIETY</h11>
+  <img src="../public/students.jpg" class="imgcl" alt="clubs and society" />
+  <p class="depinfo">This is our students enganging in the guiding and cousinsling
+    section which is held every wendesday in our school social hall.
+  </p>
+</section>
+
+<div class="us">
+  <div class="usa">
+  <h6>ABOUT US</h6>
+  <p class="us2"><span>Our Vision:</span> To be responsible and accountable members of the society.<br>
+    <span>Our Mission:</span>To provide holistic education for self reliance.<br>
+    
+</div>
+
+<div class="us1">
+  <h6>OPENING HOURS (VISITORS)</h6>
+  <p class="us2">Weekdays:8:00AM-5:00PM<br>Saturdays:8:00AM-3:00PM<br> Sundays: Closed
+    
+    
+    </p>
+</div>
+
+<div class="us1">
+  <h6>CONTACT INFORMATION</h6>
+  <p class="us2">Buisa - Kenya.<br>+254 712253376<br>kuremuSchool@gmail.com</style></a><br>.Box 76</p>
+</div>
+
+<div class="us1">
+  <h6>OUR SOCIALS</h6>
+  <p class="us2">
+    <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </p> 
+</div>
+</div>
+
+
+
+
+  <script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+</body>
+</html>
